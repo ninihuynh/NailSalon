@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vivi Nails Salon | Professional Nail Care</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header-inner">
+        <div class="logo">
+          <h1>Vivi <span>Nails</span></h1>
+          <p class="tagline">Your beauty, our passion</p>
+        </div>
+        <nav>
+          <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+          </div>
+          <ul class="nav-menu">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#services" class="nav-link">Services</a></li>
+            <li><a href="#gallery" class="nav-link">Gallery</a></li>
+            <li><a href="#booking" class="nav-link">Book Now</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h2>Welcome to <span>Vivi Nails</span></h2>
+      <p>Where beauty meets exceptional service</p>
+      <a href="#booking" class="btn-primary">Book Your Appointment</a>
+    </div>
+  </section>
+
+  <section id="about" class="about-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>About Us</h2>
+        <div class="separator"></div>
+      </div>
+      <div class="about-content">
+        <div class="about-text">
+          <p>At Vivi Nails, we believe in providing exceptional nail care services in a relaxing and luxurious environment. Our team of highly skilled technicians are dedicated to ensuring you leave our salon looking and feeling your best.</p>
+          <p>We use only premium products and maintain the highest standards of hygiene and sterilization for your safety and peace of mind.</p>
+          <div class="about-features">
+            <div class="feature">
+              <i class="fas fa-check-circle"></i>
+              <span>Premium Products</span>
+            </div>
+            <div class="feature">
+              <i class="fas fa-check-circle"></i>
+              <span>Skilled Technicians</span>
+            </div>
+            <div class="feature">
+              <i class="fas fa-check-circle"></i>
+              <span>Hygiene Guaranteed</span>
+            </div>
+            <div class="feature">
+              <i class="fas fa-check-circle"></i>
+              <span>Relaxing Atmosphere</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-image">
+            <img src="images/about-image.jpg" alt="Vivi Nails Salon Interior" class="img-fluid">
+          </div>          
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="services-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Our Services & Pricing</h2>
+        <div class="separator"></div>
+        <p>Indulge in our wide range of professional nail services</p>
+      </div>
+      
+      <div class="service-categories">
+        <div class="category-tabs">
+          <button class="category-tab active" data-category="all">All Services</button>
+          <button class="category-tab" data-category="nails">Nail Services</button>
+          <button class="category-tab" data-category="pedicures">Pedicures</button>
+          <button class="category-tab" data-category="specials">Special Treatments</button>
+        </div>
+      </div>
+
+      <div class="services-table-container">
+        <table class="services-table">
+          <thead>
+            <tr>
+              <th>Service</th>
+              <th>Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="nails">
+              <td>Full Set</td>
+              <td>$35</td>
+            </tr>
+            <tr class="nails">
+              <td>Fill</td>
+              <td>$30</td>
+            </tr>
+            <tr class="nails">
+              <td>Pink & White Set</td>
+              <td>$55</td>
+            </tr>
+            <tr class="nails">
+              <td>Pink Fill</td>
+              <td>$35</td>
+            </tr>
+            <tr class="nails">
+              <td>White Tips Set with Gel Topcoat</td>
+              <td>$45</td>
+            </tr>
+            <tr class="nails">
+              <td>White Tips Fill with Gel Topcoat</td>
+              <td>$35</td>
+            </tr>
+            <tr class="specials">
+              <td>Ombre</td>
+              <td>$50+</td>
+            </tr>
+            <tr class="specials">
+              <td>Dip Powder</td>
+              <td>$45+</td>
+            </tr>
+            <tr class="nails">
+              <td>Gel Polish (Toes)</td>
+              <td>$20</td>
+            </tr>
+            <tr class="nails">
+              <td>Gel Polish (Fingers)</td>
+              <td>$20</td>
+            </tr>
+            <tr class="nails">
+              <td>French Gel Polish</td>
+              <td>$25</td>
+            </tr>
+            <tr class="specials">
+              <td>Cat Eye Gel Polish</td>
+              <td>$25</td>
+            </tr>
+            <tr class="nails">
+              <td>Manicure</td>
+              <td>$25</td>
+            </tr>
+            <tr class="nails">
+              <td>Manicure with French</td>
+              <td>$30</td>
+            </tr>
+            <tr class="pedicures">
+              <td>Pedicure (includes Callus Remover)</td>
+              <td>$35</td>
+            </tr>
+            <tr class="pedicures">
+              <td>Pedicure with French</td>
+              <td>$40</td>
+            </tr>
+            <tr class="pedicures">
+              <td>Deluxe Pedicure (Marine Masque, Sea Salt Glow, A.H.A. Scrub)</td>
+              <td>$45</td>
+            </tr>
+            <tr class="specials">
+              <td>Manicure & Pedicure</td>
+              <td>$55</td>
+            </tr>
+            <tr class="specials">
+              <td>Manicure & Pedicure with French</td>
+              <td>$65</td>
+            </tr>
+            <tr class="nails">
+              <td>Nail Design</td>
+              <td>$7+</td>
+            </tr>
+            <tr class="nails">
+              <td>Nail Repair</td>
+              <td>$7</td>
+            </tr>
+            <tr class="nails">
+              <td>Cut Down</td>
+              <td>$5</td>
+            </tr>
+            <tr class="nails">
+              <td>Nail Take Off</td>
+              <td>$15+</td>
+            </tr>
+            <tr class="nails">
+              <td>French Polish</td>
+              <td>$20</td>
+            </tr>
+            <tr class="nails">
+              <td>Polish Change (Fingers)</td>
+              <td>$15</td>
+            </tr>
+            <tr class="nails">
+              <td>Polish Change (Toes)</td>
+              <td>$15</td>
+            </tr>
+            <tr class="pedicures">
+              <td>Toe Nail Cut</td>
+              <td>$15</td>
+            </tr>
+            <tr class="pedicures">
+              <td>Two Toe Caps</td>
+              <td>$20</td>
+            </tr>
+            <tr class="pedicures">
+              <td>Toe Caps Fill</td>
+              <td>$10</td>
+            </tr>
+            <tr class="specials">
+              <td>Eyebrow Waxing</td>
+              <td>$15</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="promotion-banner">
+    <div class="container">
+      <div class="promo-content">
+        <h3>Special Offer</h3>
+        <p>Book a Deluxe Pedicure and receive 20% off any manicure service!</p>
+        <a href="#booking" class="btn-secondary">Book Now</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="gallery-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Our Gallery</h2>
+        <div class="separator"></div>
+        <p>Explore our stunning nail designs and creations</p>
+      </div>
+      
+      <div class="gallery-filter">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="gel">Gel</button>
+        <button class="filter-btn" data-filter="acrylic">Acrylic</button>
+        <button class="filter-btn" data-filter="designs">Designs</button>
+      </div>
+      
+      <div class="gallery-grid">
+        <div class="gallery-item gel">
+          <img src="images/nail1.jpg" alt="Gel Nail Design">
+          <div class="overlay">
+            <div class="overlay-content">
+              <h4>Elegant Gel</h4>
+              <p>Soft pink gel with glitter accent</p>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-item acrylic">
+          <img src="images/nail2.jpg" alt="Acrylic Nail Design">
+          <div class="overlay">
+            <div class="overlay-content">
+              <h4>Classic French</h4>
+              <p>Timeless french tip acrylic nails</p>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-item designs">
+          <img src="images/nail3.jpg" alt="Complex Nail Design">
+          <div class="overlay">
+            <div class="overlay-content">
+              <h4>Artistic Flair</h4>
+              <p>Hand-painted floral designs</p>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-item gel">
+          <img src="images/nail4.jpg" alt="Modern Gel Design">
+          <div class="overlay">
+            <div class="overlay-content">
+              <h4>Modern Minimalist</h4>
+              <p>Sleek and simple gel nail art</p>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-item designs">
+          <img src="images/nail5.jpg" alt="Seasonal Nail Art">
+          <div class="overlay">
+            <div class="overlay-content">
+              <h4>Seasonal Collection</h4>
+              <p>Limited time specialty designs</p>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-item acrylic">
+          <img src="images/nail6.jpg" alt="Luxury Acrylic Set">
+          <div class="overlay">
+            <div class="overlay-content">
+              <h4>Luxury Ombre</h4>
+              <p>Perfectly blended color transition</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="gallery-more">
+        <a href="#" class="btn-outline">Load More</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonials" class="testimonials-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>What Our Clients Say</h2>
+        <div class="separator"></div>
+      </div>
+      
+      <div class="testimonials-slider">
+        <div class="testimonial">
+          <div class="quote">
+            <i class="fas fa-quote-left"></i>
+          </div>
+          <p class="testimonial-text">Vivi Nails provides the best nail services in town! The technicians are skilled and the salon is always spotless. I wouldn't go anywhere else.</p>
+          <div class="testimonial-author">
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>Sarah Johnson</h4>
+          </div>
+        </div>
+        
+        <div class="testimonial">
+          <div class="quote">
+            <i class="fas fa-quote-left"></i>
+          </div>
+          <p class="testimonial-text">I love coming to Vivi Nails! The ambiance is relaxing and my nails always look fabulous. The deluxe pedicure is absolutely worth every penny!</p>
+          <div class="testimonial-author">
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>Michelle Davis</h4>
+          </div>
+        </div>
+        
+        <div class="testimonial">
+          <div class="quote">
+            <i class="fas fa-quote-left"></i>
+          </div>
+          <p class="testimonial-text">The nail artists at Vivi Nails are true professionals. They listen to what you want and deliver exceptional results every time. Highly recommend!</p>
+          <div class="testimonial-author">
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h4>Jennifer Lee</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="booking" class="booking-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Book an Appointment</h2>
+        <div class="separator"></div>
+        <p>Schedule your visit and treat yourself to our exceptional services</p>
+      </div>
+      
+      <div class="booking-container">
+        <div class="booking-form-container">
+          <form id="booking-form">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required placeholder="Your name">
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required placeholder="Your email">
+              </div>
+            </div>
+            
+            <div class="form-row">
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" required placeholder="Your phone">
+              </div>
+              <div class="form-group">
+                <label for="service">Select Service</label>
+                <select id="service" name="service" required>
+                  <option value="" disabled selected>Choose a service</option>
+                  <option value="Full Set">Full Set</option>
+                  <option value="Fill">Fill</option>
+                  <option value="Pink & White Set">Pink & White Set</option>
+                  <option value="Pink Fill">Pink Fill</option>
+                  <option value="White Tips Set with Gel Topcoat">White Tips Set with Gel Topcoat</option>
+                  <option value="White Tips Fill with Gel Topcoat">White Tips Fill with Gel Topcoat</option>
+                  <option value="Ombre">Ombre</option>
+                  <option value="Dip Powder">Dip Powder</option>
+                  <option value="Gel Polish (Toes)">Gel Polish (Toes)</option>
+                  <option value="Gel Polish (Fingers)">Gel Polish (Fingers)</option>
+                  <option value="French Gel Polish">French Gel Polish</option>
+                  <option value="Cat Eye Gel Polish">Cat Eye Gel Polish</option>
+                  <option value="Manicure">Manicure</option>
+                  <option value="Manicure with French">Manicure with French</option>
+                  <option value="Pedicure">Pedicure</option>
+                  <option value="Pedicure with French">Pedicure with French</option>
+                  <option value="Deluxe Pedicure">Deluxe Pedicure</option>
+                  <option value="Manicure & Pedicure">Manicure & Pedicure</option>
+                  <option value="Manicure & Pedicure with French">Manicure & Pedicure with French</option>
+                  <option value="Eyebrow Waxing">Eyebrow Waxing</option>
+                </select>
+              </div>
+            </div>
+            
+            <div class="form-row">
+              <div class="form-group">
+                <label for="date">Preferred Date</label>
+                <input type="date" id="date" name="date" required>
+              </div>
+              <div class="form-group">
+                <label for="time">Preferred Time</label>
+                <input type="time" id="time" name="time" required>
+              </div>
+            </div>
+            
+            <div class="form-group full-width">
+              <label for="notes">Special Requests (Optional)</label>
+              <textarea id="notes" name="notes" rows="3" placeholder="Any specific requests or preferences"></textarea>
+            </div>
+            
+            <div class="form-group full-width">
+              <button type="submit" class="btn-primary btn-full">Book Appointment</button>
+            </div>
+          </form>
+          
+          <div id="confirmation-message" style="display: none;">
+            <div class="confirmation-content">
+              <i class="fas fa-check-circle"></i>
+              <h3>Thank You!</h3>
+              <p>Your appointment request has been submitted successfully. We'll confirm your appointment shortly via email.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="booking-info">
+          <div class="info-card">
+            <div class="info-icon">
+              <i class="fas fa-clock"></i>
+            </div>
+            <h3>Business Hours</h3>
+            <ul>
+              <li><span>Monday - Saturday:</span> 9:00 AM - 7:00 PM</li>
+              <li><span>Sunday:</span> Closed</li>
+            </ul>
+          </div>
+          
+          <div class="info-card">
+            <div class="info-icon">
+              <i class="fas fa-info-circle"></i>
+            </div>
+            <h3>Booking Policy</h3>
+            <ul>
+              <li>Please arrive 10 minutes before your appointment</li>
+              <li>24-hour cancellation notice required</li>
+              <li>Appointments missed without notice will be charged 50% of service fee</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Contact Us</h2>
+        <div class="separator"></div>
+        <p>We'd love to hear from you</p>
+      </div>
+      
+      <div class="contact-container">
+        <div class="contact-info">
+          <div class="contact-card">
+            <div class="contact-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <h3>Visit Us</h3>
+            <p>123 Beautylane Drive<br>Los Angeles, CA 90001</p>
+          </div>
+          
+          <div class="contact-card">
+            <div class="contact-icon">
+              <i class="fas fa-phone-alt"></i>
+            </div>
+            <h3>Call Us</h3>
+            <p>(123) 456-7890</p>
+          </div>
+          
+          <div class="contact-card">
+            <div class="contact-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <h3>Email Us</h3>
+            <p>contact@vivinails.com</p>
+          </div>
+          
+          <div class="contact-card">
+            <div class="contact-icon">
+              <i class="fas fa-share-alt"></i>
+            </div>
+            <h3>Follow Us</h3>
+            <div class="social-links">
+              <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-pinterest"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-tiktok"></i></a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="map-container">
+            <div class="map-placeholder">
+              <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13997.765044708427!2d-87.22432035!3d30.42130975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8890c14536a349e1%3A0x1fdc45e7586d6271!2sPensacola%2C%20FL%2C%20USA!5e0!3m2!1sen!2sus!4v1620300000000!5m2!1sen!2sus" 
+                width="100%" 
+                height="400" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy">
+              </iframe>
+            </div>
+          </div>          
+      </div>
+    </div>
+  </section>
+
+  <footer class="main-footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-column">
+          <div class="footer-logo">
+            <h2>Vivi <span>Nails</span></h2>
+          </div>
+          <p>Experience luxury nail care in a relaxing atmosphere. Our dedicated team ensures you leave looking and feeling your absolute best.</p>
+        </div>
+        
+        <div class="footer-column">
+          <h3>Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#booking">Book Now</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-column">
+            <h3>Hours</h3>
+            <ul class="hours-list">
+              <li><span>Monday - Saturday:</span> 9:00 AM - 7:00 PM</li>
+              <li><span>Sunday:</span> Closed</li>
+            </ul>
+          </div>          
+        
+        <div class="footer-column">
+          <h3>Newsletter</h3>
+          <p>Subscribe to receive special offers and updates</p>
+          <form class="newsletter-form">
+            <input type="email" placeholder="Your email address" required>
+            <button type="submit"><i class="fas fa-paper-plane"></i></button>
+          </form>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <div class="copyright">
+          <p>&copy; 2025 Vivi Nails Salon | All Rights Reserved</p>
+        </div>
+        <div class="payment-methods">
+            <img src="images/visa.png" alt="Visa">
+            <img src="images/mastercard.png" alt="MasterCard">
+            <img src="images/discover.png" alt="Discover">
+          </div>
+          
+      </div>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
